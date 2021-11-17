@@ -5,5 +5,5 @@ from .models import ClientModel
 
 class ClientSerializer(serializers.ModelSerializer):
     class Meta:
-        models = ClientModel
+        model = ClientModel
         fields = ("name", "email")
