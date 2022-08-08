@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/colaborador/Downloads/opensource/core'
+poetry run pre-commit install && poetry run pre-commit run -a -v
+make: Leaving directory `/Users/colaborador/Downloads/opensource/core'
+ 
