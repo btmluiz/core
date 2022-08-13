@@ -50,3 +50,8 @@ atlassian-ide-plugin.xml
 
 # Editor-based Rest Client
 .idea/httpRequests
+
+# Virtual env folder
+venv/
+venv/*
+venv/**
